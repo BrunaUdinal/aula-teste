@@ -1,0 +1,27 @@
+AULA 1 
+/*Elabore um programa que escreve seu nome completo, seu endereço, o CEP e telefone em linhas separadas.*/
+
+            string nome = "Joana Oliveira";
+            string endereco = "Rua das Pedras, 170";
+            int cep = 12678879;
+            double telefone = 11997515233;
+            Console.WriteLine($"{nome}\n{endereco}\n{cep}\n{telefone}");
+            Console.ReadLine();
+
+(2) /*Escolha uma mulher famosa na história da tecnologia e implemente um programa que escreve seu nome, 
+             * sua formação e uma contribuição feita por ela dentro da tecnologia em linhas separadas.*/
+
+            string nome = "Katherine Johnson";
+            string graduacao = "Pós graduação na universidade West Virginia Statec";
+            string contribuicao = "Uma de suas principais contribuições foi o cálculo de trajetória de voo para a missão de primeiro pouso na lua, feito pelo Apolo 11";
+            Console.WriteLine($"{nome}\n{graduacao}\n{contribuicao}");
+            Console.ReadLine();
+
+(3) /*Elabore um programa que mostre na tela uma letra de música que você gosta, 
+             * o compositor e o gênero musical em linhas separadas.*/
+
+            string musica = "Young Hearts Run Free - Candi Staton\n\nWhat's the sense in sharing, this one and only life, \nEndin' up, just another lost and lonely wife, \nYou'll count up the years, and they will be filled with tears, \nLove only breaks up, to start over again, \n\nYou'll get the baby, but you won't have your man, \nWhile he is busy loving every woman that he can, uh-huh, \nSay I'm gonna leave a hundred times a day, It's easier said than done, \n\nWhen you just can't break away (when you just can't break away), \nOh, young hearts run free, \nNever be hung up, hung up like my man and me, my man and me, \nOh, young hearts, to yourself be true, \nDon't be no fool when love really don't love you, don't love you, \n\nIt's high time now just one crack at life, \nWho wants to live in, in trouble and strife, \nMy mind must be free, to learn all I can about me, uh-hmm, \nI'm gonna love me, for the rest of my days, \n\nEncourage the babies every time they say, \nSelf preservation is what's really going on today, \nSay I'm gonna turn loose a thousand times a day, \nBut how can I turn loose, \n\nWhen i just can't break away (when I just can't break away), \nOh, young hearts run free, \nThey'll never be hung up, hung up like my man and me, you and me, \nOh, young hearts, to yourself be true, \nDon't be no fool when love really don't love you, don't love you, \n\nOh, young hearts run free, \nThey'll never be hung up, hung up like my man and me, my man and me, \nOh, young hearts, to yourself be true, \nDon't be no fool when love really don't love you, don't love you, \n\nOh, young hearts run free, \nThey'll never be hung up, hung up like my man and me, my man and me, \nOh, young hearts, to yourself be true, \nDon't be no fool when love really don't love you, don't love you\n\n";
+            string compositor = "Compositor: David Crowford";
+            string genMusical = "Gênero Musical: Disco Music";
+            Console.WriteLine($"{musica}\n{compositor}\n{genMusical}");
+            Console.ReadLine();
